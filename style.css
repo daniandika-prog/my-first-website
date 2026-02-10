@@ -1,0 +1,86 @@
+body {
+  background-color: lightyellow;
+  font-family: Arial;
+  text-align: center;
+  button {
+  padding: 10px 20px;
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  .card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.navbar {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: blue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 40px;
+}
+
+}
+
+button:hover {
+  background-color: darkblue;
+}
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  color: gray;
+
+}
+@media (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+input, textarea {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
