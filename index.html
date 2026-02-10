@@ -20,10 +20,30 @@
 
 <div class="container">
 
+<h2>Calculator</h2>
+<h2>Todo List</h2>
+
+<input type="text" id="todoInput" placeholder="Tulis todo...">
+<button onclick="addTodo()">Add</button>
+
+<ul id="todoList"></ul>
+
+<input type="number" id="num1" placeholder="Angka pertama">
+<input type="number" id="num2" placeholder="Angka kedua">
+
+<br><br>
+
+<button onclick="add()">Tambah</button>
+<button onclick="subtract()">Kurang</button>
+<button onclick="multiply()">Kali</button>
+<button onclick="divide()">Bagi</button>
+<p id="result">Hasil: </p>
+
   <div>
     <h1>Halo, saya Dani</h1>
     <p>Saya sedang belajar Full Stack Developer</p>
-    <button onclick="sayHello()">Klik Saya</button>
+    <button onclick="greet()">Klik Saya</button>
+
   </div>
 
   <img src="images/gambar.jpg" width="200">
@@ -53,6 +73,7 @@ function sayHello() {
 </body>
 
 
+<script src="script.js"></script>
 
 </body>
 </html>
